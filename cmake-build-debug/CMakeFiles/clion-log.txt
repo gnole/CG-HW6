@@ -1,5 +1,0 @@
-/home/oleg/Загрузки/firefox/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/home/oleg/CLionProjects/LadKG/CG6 (KrivaBezie)"
--- Found SFML 2.5.1 in /usr/lib64/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: /home/oleg/CLionProjects/LadKG/CG6 (KrivaBezie)/cmake-build-debug
