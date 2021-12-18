@@ -32,7 +32,9 @@ void drawLineRed(int x1, int y1, int x2, int y2, sf::RenderWindow &window) {
 double distance(std::pair<int, int> P0, std::pair<int, int> P1, std::pair<int, int> P2) {
     double ch = std::abs((P2.second - P0.second) * P1.first + (P0.first - P2.first) * P1.second - P0.first * P2.second + P2.first * P0.second);
     double zn = std::sqrt((P0.first - P2.first) * (P0.first - P2.first) + (P2.second - P0.second) * (P2.second - P0.second));
-    if (zn == 0) return ch / zn;
+    if (zn == 0) return 0;
+    else
+        return ch / zn;
 }
 std::vector<std::pair<int, int>> bezie(std::pair<int, int> P0, std::pair<int, int> P1, std::pair<int, int> P2, sf::RenderWindow &window) {
     std::vector<std::pair<int, int>> v;
